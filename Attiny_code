@@ -1,0 +1,14 @@
+void setup()
+{
+  pinMode(5, OUTPUT);
+  pinMode(0, OUTPUT);
+
+  digitalWrite(5, HIGH);
+  delay(10000); // Wait for 10000 millisecond(s)
+  digitalWrite(5, LOW);
+}
+
+void loop()
+{
+  
+}
